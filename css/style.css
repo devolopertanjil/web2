@@ -1,0 +1,420 @@
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Common css start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Common css end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        Header part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#header_part{
+    background-color: #fff;
+    height: 99px;
+}
+.header_cont{
+    height: 99px;
+}
+.logo{
+    width: 30%;
+    height: 99px;
+    line-height: 99px;
+    float: left;
+}
+.main_menu{
+    height: 99px;
+}
+.main_menu ul{
+    float: right;
+    text-align: right;
+}
+.main_menu ul li{
+    float: left;
+    line-height: 99px;
+}
+.main_menu ul li a{
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-left: 44px;
+    font-family: 'Lato', sans-serif;
+}
+.main_menu ul li a:hover{
+    color: #15a4fa;
+    transition: all linear.3s;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        Header part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Banner part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#banner_part{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 186px 0 281px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.content p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 31px;
+}
+.content a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px 35px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #15a4fa;
+    margin-top: 65px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Banner part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Simple part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#text_part{
+    background-color: #f6f9f9;
+    padding: 80px 0 108px;
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.text p{
+    color: #999999;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 32px;
+    margin-top: 18px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Simple part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Service part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#service_part{
+    background-color: #fff;
+    padding: 65px 0 65px;
+}
+.left{
+    float: left;
+    width: 305px;
+    text-align: center;
+    margin-right: 15px;
+}
+.left h4{
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 26px;
+}
+.left p{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 13px;
+    line-height: 22px;
+}
+.middle{
+    float: left;
+    width: 305px;
+    text-align: center;
+    margin-right: 15px;
+}
+.middle h4{
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 26px;
+}
+.middle p{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 13px;
+    line-height: 22px;
+}
+.right{
+    float: left;
+    width: 305px;
+    text-align: center;
+    margin-right: 15px;
+}
+.right h4{
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 26px;
+}
+.right p{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 13px;
+    line-height: 22px;
+}
+.right:nth-child(3){
+    margin-right: 0;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Service part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Showcase part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#profile_part{
+    background-color: #f6f9f9;
+    padding: 80px 0 116px;
+}
+.profile{
+    text-align: center;
+}
+.profile h2{
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.profile p{
+    color: #909090;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 16px;
+}
+.profile_img{
+    padding: 80px 0 116px;
+}
+.portfolio_col img{
+    opacity: 1;
+    transition: .5s ease;
+}
+.portfolio_col {
+	display: block;
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.portfolio_col img:hover{
+    color: #94b2c5;
+}
+.portfolio_col:nth-child(3){
+    margin-right: 0;
+}
+.portfolio_col:nth-child(4){
+    margin-bottom: 0;
+}
+.portfolio_col:nth-child(5){
+    margin-bottom: 0;
+}
+.portfolio_col:nth-child(6){
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.portfolio_col img{
+    width: 100%;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Showcase part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Contact part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#contact_part{
+    background: linear-gradient(rgba(45, 57, 80, 0.9),rgba(45, 57, 80, 0.9)),url(../images/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 75px 0 98px;
+}
+.contact{
+    padding: 75px 0 98px;
+    text-align: center;
+}
+.contact_head h2{
+    color: #fff;
+    font-size: 41px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.contact_head p{
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 13px;
+}
+.contact_form{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666a73;
+}
+.contact_form input{
+    color: #b0b2b6;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #a7a8aa;
+    background: none;
+    height: 45px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.contact_form textarea{
+    color: #b0b2b6;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #a7a8aa;
+    background: none;
+    border-radius: 3px;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn input{
+    padding: 16px 50px;
+    line-height: 16px;
+    color: #b0b2b6;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #15a4fa;
+    
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Contact part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Footer part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#footer_part{
+    padding: 25px 0;
+    background-color: #fff;
+}
+.footer{
+    margin-top: 0;
+}
+.copy{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    line-height: 38px;
+}
+.social_icon{
+    float: right;
+    line-height: 38px;
+}
+.social_icon a{
+    text-align: center;
+    color: #fff;
+    margin-left: 5px;
+    background-color: #15a4fa;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Footer part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Menu part start
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Menu part end
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
